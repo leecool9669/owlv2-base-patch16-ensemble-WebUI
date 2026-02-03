@@ -1,0 +1,71 @@
+- generic [ref=e21]:
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e27]:
+        - heading "Wan 2.2 ComfyUI Repackaged - 模型测试与可视化系统" [level=1] [ref=e28]
+        - paragraph [ref=e29]: 本系统用于测试和验证 Wan 2.2 视频生成模型的部署状态。
+        - paragraph [ref=e30]:
+          - strong [ref=e31]: 模型信息
+          - text: ":"
+        - list [ref=e32]:
+          - listitem [ref=e33]:
+            - strong [ref=e34]: 模型名称
+            - text: ": Wan 2.2 TI2V 5B FP16"
+          - listitem [ref=e35]:
+            - strong [ref=e36]: 模型类型
+            - text: ": Text/Image to Video Generation"
+          - listitem [ref=e37]:
+            - strong [ref=e38]: 参数量
+            - text: ": 5B (50亿参数)"
+          - listitem [ref=e39]:
+            - strong [ref=e40]: 精度
+            - text: ": FP16 (半精度浮点数)"
+          - listitem [ref=e41]:
+            - strong [ref=e42]: 来源
+            - text: ": Comfy-Org/Wan_2.2_ComfyUI_Repackaged"
+        - paragraph [ref=e43]:
+          - strong [ref=e44]: 功能说明
+          - text: ":"
+        - list [ref=e45]:
+          - listitem [ref=e46]: 检查模型文件是否存在
+          - listitem [ref=e47]: 验证模型文件完整性
+          - listitem [ref=e48]: 显示模型基本信息
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - button [ref=e52] [cursor=pointer]: 模型状态检查
+            - button [ref=e53] [cursor=pointer]: 模型测试
+            - button [ref=e54] [cursor=pointer]: 模型信息
+            - button [ref=e55] [cursor=pointer]: 文件下载
+          - tablist [ref=e56]:
+            - tab "模型状态检查" [selected] [ref=e57] [cursor=pointer]
+            - tab "模型测试" [ref=e58] [cursor=pointer]
+            - tab "模型信息" [ref=e59] [cursor=pointer]
+            - tab "文件下载" [ref=e60] [cursor=pointer]
+        - tabpanel [ref=e61]:
+          - generic [ref=e62]:
+            - heading "第一步：检查模型文件状态" [level=3] [ref=e67]
+            - button "检查模型文件" [ref=e68] [cursor=pointer]
+      - generic [ref=e72]:
+        - separator [ref=e73]
+        - paragraph [ref=e74]:
+          - strong [ref=e75]: 使用说明
+          - text: ":"
+        - list [ref=e76]:
+          - listitem [ref=e77]: 首先在"模型状态检查"标签页中检查模型文件
+          - listitem [ref=e78]: 如果文件缺失，请在"文件下载"标签页查看下载说明
+          - listitem [ref=e79]: 文件下载完成后，在"模型测试"标签页进行验证
+          - listitem [ref=e80]: 验证通过后，模型即可在 ComfyUI 中使用
+  - contentinfo "Gradio footer navigation" [ref=e81]:
+    - button "通过 API 使用 标志" [ref=e82] [cursor=pointer]:
+      - text: 通过 API 使用
+      - img "标志" [ref=e83]
+    - generic [ref=e84]: ·
+    - link "使用 Gradio 构建 标志" [ref=e85] [cursor=pointer]:
+      - /url: https://gradio.app
+      - text: 使用 Gradio 构建
+      - img "标志" [ref=e86]
+    - generic [ref=e87]: ·
+    - button "设置 设置" [ref=e88] [cursor=pointer]:
+      - text: 设置
+      - img "设置" [ref=e89]
