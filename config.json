@@ -1,0 +1,10 @@
+{
+  "architectures": ["Owlv2ForObjectDetection"],
+  "model_type": "owlv2",
+  "tokenizer_config": {
+    "bos_token": "<|startoftext|>",
+    "eos_token": "<|endoftext|>",
+    "pad_token": "!",
+    "unk_token": "<|endoftext|>"
+  }
+}
